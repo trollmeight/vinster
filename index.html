@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>vinster</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="/media/favicon.ico">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'inter', sans-serif;
+            background-color: #181818;
+            color: #fff;
+            padding: 20px;
+            display: flex;
+            justify-content: flex-start;
+            align-items: flex-start;
+            height: 100vh;
+        }
+        .main-container {
+            display: flex;
+        }
+        .container, .list-container {
+            background-color: #242424;
+            padding: 20px;
+            border: none;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.7);
+            margin-right: 20px;
+            width: 250px;
+            height: auto;
+        }
+        .container {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+        h1, h2 {
+            font-size: 1.5rem;
+            margin-bottom: 15px;
+        }
+        ul {
+            list-style: none;
+            padding-left: 0;
+        }
+        .button {
+            background-color: #333;
+            border: none;
+            padding: 10px;
+            color: white;
+            font-size: 1rem;
+            font-weight: 700;
+            cursor: pointer;
+            margin-bottom: 10px;
+            text-align: left;
+            transition: all 0.3s ease;
+            width: 100%;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+        }
+        .button:hover {
+            background-color: #444;
+            transform: translateY(-3px);
+            box-shadow: 0 6px 15px rgba(0, 0, 0, 0.4);
+        }
+        .list-container h2 {
+            margin-bottom: 15px;
+        }
+        .list-container ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 1rem;
+            margin-bottom: 10px;
+            display: block;
+        }
+        .list-container ul li a:hover {
+            color: #aaa;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="main-container">
+        <div class="container">
+            <h1>vinster client</h1>
+            <ul>
+                <li><button class="button" onclick="location.href='https://vinster.xyz/clients/resent-client.html'">resent client</button></li>
+                <li><button class="button" onclick="location.href='https://vinster.xyz/clients/eaglercraft-1.8.8.html'">eaglercraft 1.8.8</button></li>
+                <li><button class="button" onclick="location.href='https://vinster.xyz/clients/eaglercraft-1.5.2.html'">eaglercraft 1.5.2</button></li>
+            </ul>
+        </div>
+
+        <div class="list-container">
+            <h2>archmc voting sites</h2>
+            <ul>
+                <li><a href="https://vote1.arch.lol" target="_blank">vote1.arch.lol</a></li>
+                <li><a href="https://vote2.arch.lol" target="_blank">vote2.arch.lol</a></li>
+                <li><a href="https://vote3.arch.lol" target="_blank">vote3.arch.lol</a></li>
+                <li><a href="https://vote4.arch.lol" target="_blank">vote4.arch.lol</a></li>
+                <li><a href="https://vote5.arch.lol" target="_blank">vote5.arch.lol</a></li>
+                <li><a href="https://vote6.arch.lol" target="_blank">vote6.arch.lol</a></li>
+            </ul>
+        </div>
+        <div class="list-container">
+            <h2>server list</h2>
+            <ul>
+                <li><a href="https://zentic.cc" target="_blank">zentic</a></li>
+                <li><a href="https://arch.lol" target="_blank">archmc</a></li>
+                <li><a href="https://www.asspixel.net" target="_blank">asspixel</a></li>
+                <li><a href="https://clever-teaching.com" target="_blank">clever teaching</a></li>
+            </ul>
+        </div>
+    </div>
+
+</body>
+</html>
